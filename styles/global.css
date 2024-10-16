@@ -1,8 +1,27 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 :root {
-  --bg-color: rgb(41, 40, 37);
+  --bg-color: rgb(28, 29, 31);
+  
+  --text-color: rgb(234, 234, 234);
+
+  --font-family: "Poppins", sans-serif;
+  --text-lg: bold 32px var(--font-family);
+
+}
+
+.container {
+  padding-inline: 32px;
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+body {
+  font: var(--text-lg);
+  color: var(--text-color);
+  background-color: var(--bg-color);
 }
