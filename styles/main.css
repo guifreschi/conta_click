@@ -4,16 +4,22 @@ h1 {
 }
 
 #clickcount {
+  /* margin-left: 128px; */
   margin-top: 94px;
   display: flex;
   justify-content: center; 
   align-items: center; 
   margin-bottom: 80px;
+  -webkit-user-select: none; /* Chrome, Safari, Opera */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge */
+  user-select: none; 
 }
 
 #clickcount p:nth-child(1) {
+  cursor: pointer;
   border: 5px solid white;
-  border-radius: 28px;
+  border-radius: 24px;
   width: 275px;
   height: 275px; 
   display: flex;
@@ -23,10 +29,13 @@ h1 {
 }
 
 #clickcount p:hover {
+  border-color: rgb(203, 203, 203);
   background-color: var(--bg-color-secondary);
+  border-radius: 28px;
 }
 
 #clickcount p:nth-child(2) {
+  cursor: pointer;
   border: 5px solid white;
   font: var(--text-md);
   border-radius: 50%;
@@ -41,6 +50,7 @@ h1 {
 }
 
 #clickcount p:nth-child(2):hover {
+  border-color: rgb(203, 203, 203);
   background-color: rgb(95, 17, 17);
 }
 
