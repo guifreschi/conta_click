@@ -1,0 +1,60 @@
+h1 {
+  margin-top: 16px;
+  text-align: center;
+}
+
+#clickcount {
+  margin-top: 94px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 80px;
+}
+
+#clickcount p:nth-child(1) {
+  border: 5px solid white;
+  border-radius: 28px;
+  width: 275px;
+  height: 275px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#clickcount p:hover {
+  background-color: var(--bg-color-secondary);
+}
+
+#clickcount p:nth-child(2) {
+  border: 5px solid white;
+  font: var(--text-md);
+  border-radius: 50%;
+  background-color: rgb(160, 31, 31);
+  margin-left: 20px;
+  width: 100px;
+  height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#clickcount p:nth-child(2):hover {
+  background-color: rgb(95, 17, 17);
+}
+
+footer {
+  background-color: var(--bg-footer);
+  max-width: 1300px;
+  margin-inline: auto;
+  height: 50px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+footer p {
+  font: var(--text-sm);
+  text-align: center; 
+}

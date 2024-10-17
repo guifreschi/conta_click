@@ -5,13 +5,17 @@
 }
 
 :root {
-  --bg-color: rgb(28, 29, 31);
+  --bg-color: rgb(21, 48, 106);
+  --bg-footer: rgb(31, 31, 83);
+  --bg-color-secondary: rgb(15, 33, 72);
   
+  --border-color: rgb(156, 155, 166);
   --text-color: rgb(234, 234, 234);
 
   --font-family: "Poppins", sans-serif;
-  --text-lg: bold 32px var(--font-family);
-
+  --text-lg: bold 30px var(--font-family);
+  --text-md: 18px var(--font-family);
+  --text-sm: 14px var(--font-family);
 }
 
 .container {
@@ -23,5 +27,5 @@
 body {
   font: var(--text-lg);
   color: var(--text-color);
-  background-color: var(--bg-color);
+  background-color: var(--bg-color); 
 }
