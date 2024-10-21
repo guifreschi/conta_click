@@ -4,8 +4,8 @@ h1 {
 }
 
 #clickcount {
-  /* margin-left: 128px; */
-  margin-top: 94px;
+  margin-left: 128px;
+  margin-top: 36px;
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -56,9 +56,8 @@ h1 {
 
 footer {
   background-color: var(--bg-footer);
-  max-width: 1300px;
   margin-inline: auto;
-  height: 50px;
+  height: 46px;
   display: flex; 
   justify-content: center; 
   align-items: center; 
